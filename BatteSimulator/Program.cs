@@ -10,12 +10,17 @@ public class Program
         var print =  new Print();
         var gm = new GameModes();
         var end = new End();
-        print.Intro();
+        /*print.Intro();
         
         //var lelevs = new PlayerData();
         //lelevs.SetPlayer();
         gm.SetGameMode();
 
-        end.EndGame();
+        end.EndGame();*/
+
+        int x = 9;
+        int y = 21;
+        Console.WriteLine(x++ + y--)
+
     }
 }//872 r
